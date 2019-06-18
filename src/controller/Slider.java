@@ -111,7 +111,6 @@ public class Slider extends JSlider implements ChangeListener, PropertyChangeLis
         final JSlider source = (JSlider) theEvent.getSource();
         if (source.getValueIsAdjusting()) {
             myRace.moveTo(source.getValue());
-            
         }
         
     }

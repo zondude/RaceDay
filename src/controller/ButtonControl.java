@@ -39,11 +39,6 @@ public class ButtonControl extends JPanel implements PropertyChangeListener {
      * Times four frequency. 
      */
     private static final int TIMER_TIMES_FOUR = 4;
-    
-    /** 
-     * Value for regular multiplier. 
-     */
-    private static final int SPEED_REGULAR = 1;
 
     /** 
      * Timer firing an event every 10 milliseconds. 
@@ -90,6 +85,10 @@ public class ButtonControl extends JPanel implements PropertyChangeListener {
      */
     private static final String REPEAT_COLOR_ICON = "./images/ic_repeat_color.png";
     
+    /** 
+     * Value for regular multiplier. 
+     */
+    private static final int SPEED_REGULAR = 1;
     
     /**
      * A property name for the controls.

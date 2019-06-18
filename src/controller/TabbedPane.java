@@ -144,9 +144,9 @@ public class TabbedPane extends JTabbedPane implements PropertyChangeListener {
             }
         }
         
-//        if (PROPERTY_MESSAGE.equals(theEvent.getPropertyName())) {
-//            myDataOutput.append(theEvent.getNewValue().toString());
-//        }
+        if (PROPERTY_MESSAGE.equals(theEvent.getPropertyName())) {
+            myDataOutput.append(theEvent.getNewValue().toString());
+        }
 
     }
     

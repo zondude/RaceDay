@@ -167,7 +167,6 @@ public class TrackPanel extends JPanel implements PropertyChangeListener {
         if (PROPERTY_ADVANCE.equals(theEvent.getPropertyName())) {
             myMessages = (ArrayList<Message>) theEvent.getNewValue();
         }
-        
         if (PROPERTY_TIME.equals(theEvent.getPropertyName())) {
             for (int i = 0; i < myMessages.size(); i++) {
                 if (myMessages.get(i).getClass() == Telemetry.class) {
@@ -184,6 +183,7 @@ public class TrackPanel extends JPanel implements PropertyChangeListener {
                     
                 }
             }
+
         }
     }
 }

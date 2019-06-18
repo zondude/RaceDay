@@ -55,7 +55,7 @@ public class Race implements PropertyChangeEnabledRaceControls {
     /** 
      * The expected time. 
      */
-    private static final int EXPECTED_TIME = 0;
+    private static final int EXPECTED_TIME = -2;
     
     /** 
      * A List to hold the race messages. 
@@ -296,6 +296,7 @@ public class Race implements PropertyChangeEnabledRaceControls {
                 if (leaderboardArray.length == myRacersInfo.size() + 2) {
                     int index = 0;
                     for (int i = 2; i < leaderboardArray.length; i++) {
+//                        racerArray[i] = myRacersInfo.get(i).getRacerID();
                         racerArray[index] = Integer.parseInt(leaderboardArray[i]);
                         index++;
                     }
