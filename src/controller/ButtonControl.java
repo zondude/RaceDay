@@ -48,7 +48,7 @@ public class ButtonControl extends JPanel implements PropertyChangeListener {
     /** 
      * Timer firing an event every 10 milliseconds. 
      */
-    private static final int DELAY = 10;
+    private static final int DELAY = 1;
 
     /** 
      * Play button image. 

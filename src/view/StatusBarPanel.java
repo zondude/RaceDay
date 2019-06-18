@@ -34,7 +34,7 @@ public class StatusBarPanel extends JPanel implements PropertyChangeListener {
     /** 
      * The number of milliseconds in a second. 
      */
-    public static final int MILLIS_PER_SEC = 1000;
+    public static final int MILLIS_PER_SEC = 100;
     
     /** 
      * The number of seconds in a minute. 
